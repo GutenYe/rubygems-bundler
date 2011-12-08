@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
     "rubygems-bundler.gemspec",
   ]
   s.extensions = ["ext/wrapper_installer/extconf.rb"]
+	s.executables = ["bundler_wrapper"]
   s.post_install_message = <<-TEXT
 ===============================================================================
 
